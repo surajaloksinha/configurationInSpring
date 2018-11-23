@@ -1,12 +1,12 @@
 package com.example.userservice.infrastructure;
 
 
-import com.example.userservice.domain.SunService;
+import com.example.userservice.domain.SomeService;
 
-public class CacheSunService implements SunService {
-    private final SunService underlyingService;
+public class CacheSomeService implements SomeService {
+    private final SomeService underlyingService;
 
-    public CacheSunService(final SunService underlyingService) {
+    public CacheSomeService(final SomeService underlyingService) {
         this.underlyingService = underlyingService;
     }
 
