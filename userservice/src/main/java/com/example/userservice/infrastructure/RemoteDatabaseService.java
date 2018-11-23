@@ -1,9 +1,9 @@
 package com.example.userservice.infrastructure;
 
 
-import com.example.userservice.domain.SomeService;
+import com.example.userservice.domain.DatabaseService;
 
-public class RemoteSomeService implements SomeService {
+public class RemoteDatabaseService implements DatabaseService {
 
     @Override
     public String userData() {

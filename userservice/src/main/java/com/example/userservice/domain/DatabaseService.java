@@ -1,6 +1,6 @@
 package com.example.userservice.domain;
 
-public interface SomeService {
+public interface DatabaseService {
 
     public String userData();
 }

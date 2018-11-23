@@ -1,15 +1,15 @@
 package com.example.userservice.application;
 
-import com.example.userservice.domain.SomeService;
+import com.example.userservice.domain.DatabaseService;
 
 public class UserService {
-    private final SomeService someService;
-    public UserService(final SomeService someService) {
-    this.someService = someService;
+    private final DatabaseService databaseService;
+    public UserService(final DatabaseService databaseService) {
+    this.databaseService = databaseService;
     }
 
 
     public String fetchUser() {
-        return someService.userData();
+        return databaseService.userData();
     }
 }
